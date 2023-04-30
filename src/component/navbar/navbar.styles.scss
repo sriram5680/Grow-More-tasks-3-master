@@ -1,0 +1,29 @@
+.navbar {
+  background: #a7f5ff;
+  color: #000000;
+  font-size: xx-large;
+  font-weight: bolder;
+  height: 6rem;
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .btn {
+      background: #137178;
+      color: white;
+      padding: 10px;
+      border-radius: 7px;
+      font-weight: 700;
+      cursor: pointer;
+      user-select: none;
+      &:hover {
+        background: #000000;
+      }
+      &:active {
+        opacity: 80%;
+      }
+    }
+  }
+}
